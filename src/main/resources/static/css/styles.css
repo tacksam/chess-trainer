@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(14,14,14,255);
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#gamemode-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gamemode-container {
+    background-color: rgba(0, 0, 0, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the icon horizontally */
+    text-align: left;
+    color: white;
+    width: 400px;
+    aspect-ratio: 16 / 9;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Optional for rounded corners */
+}
+
+.dummy-gamemode-icon {
+    width: 300px;
+    background-color: white;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 20px; /* Spacing between icon and text */
+    color: black;
+}
+
+.gamemode-container h2,
+.gamemode-container p,
+.gamemode-container a {
+    text-align: left; /* Keeps the text aligned to the left */
+    width: 100%; /* Ensures the text spans the container */
+}
+
+.filled-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #9b4dca; /* Updated color for button */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; /* Optional for rounded button */
+    margin-top: 20px; /* Adds spacing above the button */
+}
